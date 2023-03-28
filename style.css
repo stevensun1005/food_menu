@@ -1,0 +1,141 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #fff;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Form styles */
+  form {
+    margin-bottom: 2rem;
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  button[type="submit"] {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Menu list styles */
+  #menuList h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #menuList ul {
+    list-style-type: none;
+  }
+  
+  #menuList li {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  
+  #menuList h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #menuList p {
+    margin-bottom: 0.5rem;
+  }
+/* Edit and delete button styles */
+.edit,
+.delete {
+  background-color: #333;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.edit:hover,
+.delete:hover {
+  background-color: #555;
+}
+/* Image preview styles */
+.image-preview {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+    
+  /* Menu image styles */
+.menu-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  

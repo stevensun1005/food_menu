@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Menu and Recipe Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Food Menu and Recipe Manager</h1>
+  </header>
+  <main>
+    <form id="menuForm">
+        <fieldset>
+          <legend>Add Menu Item</legend>
+          <label for="itemName">Name:</label>
+          <input type="text" id="itemName" required>
+          <label for="itemRecipe">Recipe:</label>
+          <textarea id="itemRecipe" rows="4" cols="50" required></textarea>
+          <label for="itemRequirements">Requirements:</label>
+          <input type="text" id="itemRequirements">
+          <label for="itemImage">Image:</label>
+          <input type="file" id="itemImage" accept="image/*">
+          <button type="submit">Add Menu Item</button>
+        </fieldset>
+      </form>      
+      
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+<section id="menuList">
+    <h2>Menu Items</h2>
+    <ul></ul>
+  </section>
+  
